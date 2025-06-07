@@ -33,7 +33,7 @@ def write_request(characteristic: BlessGATTCharacteristic, value: Any, **kwargs)
 
 
 async def stream_emg_data(server, service_uuid: str, char_uuid: str):
-    for batch_num in range(10):  # 10 batches over 5 seconds
+    for batch_num in range(6):  # x batches over 5 seconds
         raw_values = [random.randint(0, 3300) for _ in range(500)]
         
         # Send as chunks of 10 bytes (20 bytes total)
