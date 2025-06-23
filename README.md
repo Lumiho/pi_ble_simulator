@@ -1,5 +1,5 @@
 # PI3a Bluetooth Simulator
-Purpose: Program that has the pi device mimic an actual hardware device--can be modified for other applications but for this program, I want a stream of batch numbers that mimic an EMG device
+Purpose: Program that has the pi device mimic an actual hardware device for bluetooth testing on an app--can be modified for other applications but for this program, I want a stream of batch numbers that mimic an EMG device
 ## Initialize and Activate Virtual Environment
 Initialize: 'python -m venv venv'
 Activate: 'source venv/bin/activate'
