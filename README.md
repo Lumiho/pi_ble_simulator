@@ -1,6 +1,5 @@
 # PI3a Bluetooth Simulator
-The goal is to create a bluetooth device that mimics hardware input to an app.
-
+Purpose: Program that has the pi device mimic an actual hardware device--can be modified for other applications but for this program, I want a stream of batch numbers that mimic an EMG device
 ## Initialize and Activate Virtual Environment
 Initialize: 'python -m venv venv'
 Activate: 'source venv/bin/activate'
